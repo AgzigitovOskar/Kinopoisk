@@ -1,0 +1,45 @@
+GET http://127.0.0.1:5000/movies/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX2VtYWlsIjoidGVzdCIsImV4cCI6MTY3OTE0NDc2NH0.9ubEczuT-Ytb0q-gbCA9gWv-mnijuUsIvazhUEXPi9Y
+
+###
+
+GET http://127.0.0.1:5000/movies/?status=new
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX2VtYWlsIjoidGVzdCIsImV4cCI6MTY3OTE0NDc2NH0.9ubEczuT-Ytb0q-gbCA9gWv-mnijuUsIvazhUEXPi9Y
+
+###
+
+GET http://127.0.0.1:5000/movies/?status=new&page=1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX2VtYWlsIjoidGVzdCIsImV4cCI6MTY3OTE0NDc2NH0.9ubEczuT-Ytb0q-gbCA9gWv-mnijuUsIvazhUEXPi9Y
+
+###
+
+GET http://127.0.0.1:5000/directors/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX2VtYWlsIjoidGVzdCIsImV4cCI6MTY3OTE0NDc2NH0.9ubEczuT-Ytb0q-gbCA9gWv-mnijuUsIvazhUEXPi9Y
+
+###
+
+GET http://127.0.0.1:5000/genres/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX2VtYWlsIjoidGVzdCIsImV4cCI6MTY3OTE0NDc2NH0.9ubEczuT-Ytb0q-gbCA9gWv-mnijuUsIvazhUEXPi9Y
+
+###
+
+GET http://127.0.0.1:5000/movies/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX2VtYWlsIjoidGVzdCIsImV4cCI6MTY3OTE0NDc2NH0.9ubEczuT-Ytb0q-gbCA9gWv-mnijuUsIvazhUEXPi9Y
+
+###
+
+GET http://127.0.0.1:5000/directors/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX2VtYWlsIjoidGVzdCIsImV4cCI6MTY3OTE0NDc2NH0.9ubEczuT-Ytb0q-gbCA9gWv-mnijuUsIvazhUEXPi9Y
+
+###
+
+GET http://127.0.0.1:5000/genres/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX2VtYWlsIjoidGVzdCIsImV4cCI6MTY3OTE0NDc2NH0.9ubEczuT-Ytb0q-gbCA9gWv-mnijuUsIvazhUEXPi9Y
